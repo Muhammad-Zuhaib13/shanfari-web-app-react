@@ -1,0 +1,8 @@
+#vision-mission-section .vision-mission-text-card{
+    justify-content: flex-start;
+    gap:1rem;
+}
+.vision-mission-img-card{
+    width: 100%;
+    height: 100%;
+}

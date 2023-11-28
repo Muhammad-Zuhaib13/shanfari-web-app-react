@@ -1,0 +1,9 @@
+.heading-container {
+}
+.heading-container h2 {
+  font-family: "Philosopher";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 81px;
+  letter-spacing: 0em;
+}

@@ -1,0 +1,114 @@
+#our-values-section {
+  background-image: url("../../utils/assets/images/manage-section-bg-1.png");
+  background-color: #291208;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.values-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 4rem 0 3rem 0;
+}
+.values-first-row-cards-container,
+.values-second-row-cards-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+.value-card {
+  background-color: #ffedd9;
+  max-width: 305px;
+  width: 100%;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  gap: 8px;
+  overflow: hidden;
+}
+.value-card-img {
+  max-width: 101.15px;
+  width: 100%;
+  height: 89px;
+}
+.value-card-img img {
+  width: 100%;
+  height: 100%;
+}
+.value-card-text {
+  height: 50px;
+  width: 90%;
+}
+.value-card-text h3 {
+  font-family: "Lexend Deca";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #291409;
+}
+.our-values-title {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1920px){
+  .value-card {
+    max-width: 25%;
+    height: 254px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .value-card-text h3 {
+    font-size: 18px;
+  }
+  .value-card-img {
+    max-width: 80px;
+    width: 100%;
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .value-card {
+    max-width: 48%;
+    height: 234px;
+  }
+  .values-first-row-cards-container,
+  .values-second-row-cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .value-card-img {
+    max-width: 70px;
+    height: 70px;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  .value-card {
+    max-width: 100%;
+    height: 204px;
+  }
+  .values-first-row-cards-container,
+  .values-second-row-cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .value-card-text h3 {
+    font-size: 14px;
+  }
+  .value-card-img {
+    max-width: 50px;
+    height: 50px;
+  }
+}

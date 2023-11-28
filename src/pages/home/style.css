@@ -1,0 +1,24 @@
+.loader-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #291409;
+  background-image: url("../../utils/assets/images/top-background-img.png");
+}
+.company-logo{
+    max-width: 278px;
+    width: 100%;
+    height: auto;
+    margin-right: 4rem;
+}
+.company-logo img{
+    width: 100%;
+    height: 100%;
+}
+.custom-loader{
+    display: block;
+}

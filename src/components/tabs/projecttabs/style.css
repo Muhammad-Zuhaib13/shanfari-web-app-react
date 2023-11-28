@@ -1,0 +1,52 @@
+.project-tabs-btn-group {
+}
+.MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer {
+  justify-content: center;
+}
+.slider-btn-container {
+  display: flex;
+  flex-direction: column;
+}
+.projects-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.custom-tab {
+  color: #29140980 !important;
+  cursor: pointer;
+}
+.custom-tab-selected {
+  color: #291409 !important;
+  cursor: pointer;
+}
+
+#simple-tab-0,
+#simple-tab-1,
+#simple-tab-2 {
+  font-family: "Philosopher";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.projects-btn button:hover{
+  color: #f0c394 !important;
+  background-color: #291409;
+  border-color: #291409 !important;
+}
+/* .project-tab-option {
+  font-family: "Philosopher" !important;
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  line-height: 40px !important;
+  letter-spacing: 0em !important;
+  text-align: center !important;
+  color: #29140980 !important;
+}
+#simple-tab-0:focus{
+    color: #291409;
+}  */

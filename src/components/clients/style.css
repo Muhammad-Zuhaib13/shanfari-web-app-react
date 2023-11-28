@@ -1,0 +1,28 @@
+#clients-section{
+    background-image: url("../../utils/assets/images/clients-bg.png");
+    background-color: #F0C394;
+}
+.clients-heading-container{
+    padding: 4rem 0;
+}
+.clients-container{
+    width: 100%;
+    padding-bottom: 3rem;
+    overflow: hidden;
+}
+.clients-list{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.clients-list li{
+    width: 199px;
+}
+.clients-list li a {
+    text-decoration: none;
+    width: 100%;
+}
+.clients-list li a img{
+    width: 100%;
+}

@@ -1,0 +1,75 @@
+.services-text-accordion-container {
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.services-text-accordion-wrapper {
+  width: 100%;
+}
+.remove-tab-accordion {
+  display: none !important;
+  border: none !important;
+}
+.services-accordion {
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #291409 !important;
+  margin-bottom: 2rem !important;
+}
+
+.services-accordion-title {
+  background: transparent !important;
+  padding: 0 !important;
+}
+.services-accordion-title::before {
+  display: none !important;
+}
+.services-accordion-title h3 {
+  font-family: "Philosopher" !important;
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 54px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: #291409 !important;
+  background: transparent !important;
+}
+.services-accordion-details {
+  border: none !important;
+  padding: 8px !important;
+}
+.services-accordion-details p {
+  font-family: "Lexend Deca";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #291409;
+}
+.services-img-accordion {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.services-img-container {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.services-img-card {
+  max-width: 648px;
+  width: 100%;
+  height: 671px;
+}
+.services-btn .custom-btn {
+  border-color: #291409;
+  color: #291409;
+}
+.services-btn button:hover {
+  color: #f0c394 !important;
+  background-color: #291409;
+  border-color: #291409 !important;
+}

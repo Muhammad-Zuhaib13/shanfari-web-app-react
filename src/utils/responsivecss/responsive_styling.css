@@ -1,0 +1,581 @@
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+  .banner-slider .swiper-slide {
+    max-width: 40%;
+  }
+  .banner-slider-container {
+    height: 400px;
+  }
+  .img-card {
+    max-width: 100%;
+  }
+  #about-us-section .about-us-text-card {
+    justify-content: flex-start;
+    height: 100%;
+    gap: 1rem;
+  }
+  #manage-section .text-card {
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+  .portfolio-right-container-row {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .banner-slider .swiper-slide {
+    max-width: 40%;
+  }
+  .img-card {
+    max-width: 100%;
+  }
+  #about-us-section .about-us-text-card {
+    justify-content: space-between;
+    height: 100%;
+  }
+  #manage-section .text-card {
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+  .portfolio-right-container-row {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .services-text-accordion-container {
+    width: 85%;
+  }
+  #about-us-section .about-us-text-card {
+    justify-content: space-between;
+    height: 100%;
+  }
+  #manage-section .text-card {
+    gap: 1rem;
+  }
+  .banner-slider .swiper-slide {
+    max-width: 40%;
+  }
+  .img-card {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .value-card-text h3 {
+    font-size: 18px;
+  }
+  .value-card-img {
+    max-width: 80px;
+    width: 100%;
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #navbar-home .desktop-view {
+    display: none;
+  }
+  #navbar-home .medium-view {
+    display: block;
+  }
+  .footer-ul-container {
+    gap: 1rem;
+  }
+  .footer-links-lists-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer-ul-container.social-media {
+    margin-top: 1rem;
+  }
+  .footer-ul.social-media {
+    flex-direction: row;
+  }
+  .drawer-navbar-list li a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #navbar-home .desktop-view,
+  #navbar .desktop-view {
+    display: none;
+  }
+  #navbar-home .medium-view,
+  #navbar .medium-view {
+    display: block;
+  }
+  #vc-msg-first-card-container .vc-title h2,
+  #vc-msg-second-card-container .vc-title h2,
+  .mangement-text-card-title h2,
+  .heritage-card-title h2 {
+    font-size: 40px !important;
+    width: 100% !important;
+  }
+  #vc-msg-second-card-container .vc-message-text-card {
+    width: 100% !important;
+  }
+  #vc-msg-first-card-container .vc-subtitle h4,
+  .management-text-card-sutitle h3,
+  .management-text-card-bottom-title h3 {
+    font-size: 22px !important;
+  }
+  #vc-msg-first-card-container .vc-detailed-message p {
+    width: 100% !important;
+  }
+  #vc-msg-first-card-container .vc-message-img-card,
+  #vc-msg-second-card-container .vc-message-img-card,
+  .heritage-img-card {
+    margin-top: 1rem;
+  }
+  .management-text-card-details,
+  .heritage-text-card {
+    width: 100% !important;
+  }
+
+  .services-banner-text h2,
+  .services-img-text-container h2 {
+    font-size: 52px !important;
+  }
+  .services-banner-text p,
+  .services-img-text-container p {
+    width: 90% !important;
+  }
+  .services-img-container p {
+    font-size: 36px !important;
+    padding: 8px 24px !important;
+    top: 45% !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .services-text-accordion-container {
+    width: 98%;
+  }
+  .banner-left-container h2,
+  h3.about-us-text-card-title,
+  .heading-container h2 {
+    font-size: 76px;
+  }
+  .services-accordion-title h3 {
+    font-size: 76px !important;
+  }
+  .footer-links-lists-container {
+    padding: 3rem 2rem;
+    gap: 0;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .banner-right-container {
+    flex-direction: row;
+    padding-top: 3rem;
+    gap: 0;
+    justify-content: space-evenly;
+  }
+  .about-us-img {
+    width: 100%;
+    max-width: 100%;
+  }
+  #about-us-section {
+    padding: 2rem 0;
+  }
+  h3.about-us-text-card-title {
+    text-align: center;
+  }
+  .about-us-text-card {
+    text-align: center;
+    align-items: center;
+  }
+  .services-para,
+  .projects-para,
+  .manage-title-text-para {
+    width: 100%;
+  }
+  .manage-title-text-para {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .services-text-accordion-container {
+    width: 98%;
+  }
+  .services-btn {
+    display: none;
+  }
+  .services-img-card {
+    max-width: 100%;
+  }
+  .manage-title-text-container {
+    gap: 0;
+  }
+  #manage-section .text-card {
+    gap: 1rem;
+  }
+  .portfolio-title-text-container {
+    gap: 0;
+  }
+  .portfolio-title-text-para {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .clients-heading-container {
+    padding: 2rem 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-left-container h2,
+  h3.about-us-text-card-title,
+  .heading-container h2 {
+    font-size: 56px;
+  }
+  .services-accordion-title h3 {
+    font-size: 56px !important;
+  }
+  h3.about-us-text-card-title {
+    line-height: normal;
+  }
+
+  .banner-left-container {
+    align-items: center;
+  }
+  .banner-left-text p {
+    text-align: center;
+  }
+  .banner-slider .swiper-slide {
+    height: 300px;
+  }
+  #manage-section .text-card {
+    gap: 1rem;
+  }
+  .footer-links-lists-container {
+    flex-direction: column;
+    padding: 3rem 1rem;
+    gap: 0;
+  }
+  .footer-ul-container {
+    width: 100%;
+  }
+  .footer-img-text-container {
+    max-width: 100%;
+  }
+  #simple-tab-0,
+  #simple-tab-1,
+  #simple-tab-2 {
+    font-size: 28px !important;
+  }
+  .portfolio-link p {
+    font-size: 34px;
+  }
+  .clients-list li {
+    width: 169px;
+  }
+  .services-img-container p {
+    font-size: 28px !important;
+    padding: 8px 24px !important;
+    top: 45% !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+@media only screen and (max-width: 767px) {
+  .banner-left-container h2,
+  h3.about-us-text-card-title,
+  .heading-container h2 {
+    font-size: 56px;
+    text-align: center;
+  }
+  .services-accordion-title h3 {
+    font-size: 56px !important;
+  }
+  h3.about-us-text-card-title {
+    line-height: normal;
+  }
+  .banner-left-container {
+    align-items: center;
+  }
+  .banner-left-text p {
+    text-align: center;
+  }
+  .banner-left-text {
+    padding-right: 0;
+  }
+  .swiper-slide.banner-img-slide.swiper-slide-active {
+    transform: scale(1.45);
+    margin-right: 30px !important;
+    width: 35% !important;
+  }
+  .banner-slider .swiper-slide {
+    height: 250px;
+  }
+  .swiper-slide.banner-img-slide.swiper-slide-prev,
+  .swiper-slide.swiper-slide-next.banner-img-slideimg {
+    margin-right: 30px !important;
+  }
+  .services-accordion-details p {
+    font-size: 18px !important;
+  }
+  .portfolio-title-text-para {
+    font-size: 16px;
+  }
+  .manage-title-text-para {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .footer-links-lists-container {
+    flex-direction: column;
+    padding: 3rem 1rem;
+    gap: 0rem;
+  }
+  .footer-ul-container {
+    width: 100%;
+  }
+  .footer-img-text-container {
+    max-width: 100%;
+  }
+  #simple-tab-0,
+  #simple-tab-1,
+  #simple-tab-2 {
+    font-size: 26px !important;
+  }
+  .custom-btn {
+    width: 209px;
+  }
+  .clients-list li {
+    width: 129px;
+  }
+  .portfolio-link p {
+    font-size: 28px;
+  }
+  .text-card.vision-mission-text-card h2 {
+    font-size: 36px;
+  }
+  .text-card.vision-mission-text-card p {
+    font-size: 16px;
+  }
+  .services-img-container p {
+    font-size: 26px !important;
+    padding: 8px 24px !important;
+    top: 45% !important;
+  }
+
+  .banner-card {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner-left-container h2,
+  h3.about-us-text-card-title,
+  .heading-container h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .services-accordion-title h3 {
+    font-size: 36px !important;
+  }
+  h3.about-us-text-card-title {
+    line-height: normal;
+  }
+  .banner-left-container {
+    align-items: center;
+  }
+  .banner-left-text p {
+    text-align: center;
+  }
+  .banner-left-text {
+    padding-right: 0;
+  }
+  .banner-slider .swiper-slide {
+    /* height: 260px !important; */
+  }
+  .swiper-slide.banner-img-slide.swiper-slide-active {
+    transform: scale(1.45);
+    margin-right: 30px !important;
+    width: 45% !important;
+  }
+  .banner-slider .swiper-slide {
+    height: 250px;
+  }
+  .swiper-slide.banner-img-slide.swiper-slide-prev,
+  .swiper-slide.swiper-slide-next.banner-img-slideimg {
+    margin-right: 20px !important;
+  }
+  .services-para,
+  .projects-para,
+  .manage-title-text-para {
+    margin: 0;
+  }
+  .manage-title-text-para {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .services-accordion-details p {
+    font-size: 16px !important;
+  }
+  #manage-section .text-card-para p {
+    font-size: 16px;
+  }
+  .clients-list li {
+    width: 130px;
+  }
+  .portfolio-title-text-container {
+    padding: 1rem 0;
+  }
+  .portfolio-img-card-one,
+  .portfolio-img-card {
+    max-width: 100%;
+  }
+  .portfolio-right-img-container {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .footer-links-lists-container {
+    flex-direction: column;
+    padding: 3rem 1rem;
+    gap: 0;
+  }
+  .footer-ul-container {
+    width: 100%;
+  }
+  .footer-img-text-container {
+    max-width: 100%;
+  }
+  #simple-tab-0,
+  #simple-tab-1,
+  #simple-tab-2 {
+    font-size: 22px !important;
+  }
+  .projects-para p {
+    font-size: 16px;
+  }
+  .portfolio-link p {
+    font-size: 34px;
+  }
+  .text-card.vision-mission-text-card h2 {
+    font-size: 36px;
+  }
+  .text-card.vision-mission-text-card p {
+    font-size: 16px;
+  }
+  #vc-msg-first-card-container .vc-title h2,
+  #vc-msg-second-card-container .vc-title h2,
+  .mangement-text-card-title h2,
+  .heritage-card-title h2 {
+    font-size: 36px !important;
+    width: 100% !important;
+  }
+  .services-banner-text {
+    top: 20% !important;
+  }
+  p.banner-card-label {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .banner-left-text p,
+  p.about-us-text-card-details:nth-of-type(2),
+  p.about-us-text-card-details:nth-of-type(3) {
+    text-align: center;
+    font-size: 12px;
+  }
+  p.about-us-text-card-details:nth-of-type(1) {
+    font-size: 14px;
+    text-align: center;
+  }
+  .banner-left-btns-group {
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+  .custom-btn {
+    width: 134px;
+    height: 34px;
+    font-size: 14px;
+  }
+  .story-btn i {
+    font-size: 14px;
+  }
+  .story-btn span:nth-child(1) {
+    padding: 6px 9px;
+  }
+  .story-btn span:nth-child(2) {
+    font-size: 14px;
+  }
+  .story-btn {
+    gap: 6px;
+  }
+  .banner-left-text {
+    padding-right: 0;
+  }
+  .services-para p,
+  .projects-para p,
+  .manage-title-text-para {
+    margin: 0;
+    font-size: 12px;
+  }
+  .manage-title-text-para {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .services-accordion-details p {
+    font-size: 14px !important;
+  }
+  #manage-section .text-card-para p {
+    font-size: 14px;
+  }
+  #manage-section .heading-container h2 {
+    font-size: 24px;
+  }
+  .portfolio-title-text-para {
+    font-size: 14px;
+  }
+  .clients-list li {
+    width: 60px;
+  }
+  .clients-heading-container {
+    padding: 1rem 0;
+  }
+  #simple-tab-0,
+  #simple-tab-1,
+  #simple-tab-2 {
+    font-size: 16px !important;
+  }
+  .swiper-slide.banner-img-slide.swiper-slide-prev,
+  .swiper-slide.swiper-slide-next.banner-img-slideimg {
+    margin-right: 20px !important;
+  }
+  .swiper-slide.banner-img-slide.swiper-slide-active {
+    transform: scale(1.45);
+    margin-right: 30px !important;
+    width: 40% !important;
+  }
+  .banner-slider .swiper-slide {
+    height: 200px;
+  }
+  .services-banner-text h2,
+  .services-img-text-container h2 {
+    font-size: 36px !important;
+    line-height: normal !important;
+  }
+  .services-banner-text p,
+  .services-img-text-container p {
+    width: 95% !important;
+  }
+  .services-banner-text p,
+  .services-img-text-container p {
+    font-size: 16px !important;
+  }
+  .services-img-container p {
+    font-size: 20px !important;
+    padding: 6px 20px !important;
+    top: 40% !important;
+  }
+  .banner-right-container {
+    flex-direction: column;
+    gap:1rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #simple-tab-0,
+  #simple-tab-1,
+  #simple-tab-2 {
+    font-size: 14px !important;
+  }
+}

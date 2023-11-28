@@ -1,0 +1,205 @@
+.header-bg {
+  background-color: #291409;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line-img {
+  position: relative;
+}
+.line-img::before {
+  position: absolute;
+  content: "";
+  bottom: calc(100% - 43rem);
+  right: 0;
+  width: 238px;
+  height: 372px;
+  background-image: url("../../utils/assets/images/banner-right-line-img.png");
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.navbar-conatiner {
+  /* background-color: #291409; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-family: "Philosopher";
+  align-items: center;
+  justify-content: space-between;
+}
+.nabar-company-logo {
+  max-width: 193px;
+  width: 100%;
+  height: 63px;
+}
+.nabar-company-logo img {
+  width: 100%;
+  height: 100%;
+}
+.navbar-menu {
+  max-width: 608px;
+  width: 100%;
+}
+.navbar-menu-list,
+.navbar-icons-list {
+  display: flex;
+}
+.navbar-menu-list {
+  justify-content: space-between;
+}
+li.hover-links-effect {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+li.hover-links-effect::before {
+  content: "";
+  width: 26px;
+  height: 2px;
+  border-radius: 8px;
+  background: #f0c394;
+  position: absolute;
+  bottom: -1px;
+  left: -100%;
+  transition: all 0.5s ease-in-out;
+}
+li.hover-links-effect:hover::before {
+  left: 0;
+}
+.navbar-menu-list li a,
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.navbar-menu-list li a:hover,
+.navbar-icons-list li:hover {
+  color: #f0c394;
+}
+.navbar-menu-list,
+.navbar-icons-list {
+  list-style-type: none;
+  cursor: pointer;
+}
+.navbar-icons {
+}
+.navbar-icons-list {
+  gap: 2rem;
+}
+.navbar-icons-list li i {
+  font-size: 30px;
+  font-weight: 600;
+}
+label.bar-btn {
+  display: flex;
+  flex-direction: column;
+  width: 36px;
+  cursor: pointer;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+label span.first,
+span.second,
+span.third {
+  background: #fff;
+  border-radius: 8px;
+  height: 3px;
+  margin: 4px 0;
+  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+span.first:nth-of-type(1) {
+  width: 100%;
+}
+
+span.second:nth-of-type(2) {
+  width: 80%;
+}
+
+span.third:nth-of-type(3) {
+  width: 100%;
+}
+span.first:hover,
+span.seond:hover,
+span.third:hover {
+  background: #f0c394;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ span.first:nth-of-type(1) {
+  transform-origin: bottom;
+  transform: rotatez(45deg) translate(8px, 0px);
+}
+
+input[type="checkbox"]:checked ~ span.second:nth-of-type(2) {
+  transform-origin: top;
+  transform: rotatez(-45deg);
+}
+
+input[type="checkbox"]:checked ~ span.third:nth-of-type(3) {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(30px, -11px) rotatez(45deg);
+  visibility: hidden;
+}
+li.hover-links-effect.dropdwon::before {
+  display: none;
+}
+.dropdwon {
+  position: relative;
+  overflow: visible !important;
+}
+.dropdwon:hover .dropdown-menu {
+  opacity: 1;
+}
+.dropdown-menu {
+  list-style: none;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  z-index: 99;
+  width: 200px;
+  background-color: #291409;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 8px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.dropdown-menu li a:hover {
+  color: #f0c394;
+}
+.medium-view {
+  display: none;
+}
+.desktop-view {
+  display: block;
+}
+.login-btn {
+  width: 132px;
+  height: 48px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  font-family: "Philosopher";
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.login-btn:hover {
+  background-color: #291409;
+  color: #f0c394;
+  border-color: #291409;
+}

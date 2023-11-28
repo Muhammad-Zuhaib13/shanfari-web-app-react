@@ -1,0 +1,17 @@
+#our-projects-section{
+    background-image: url("../../utils/assets/images/projects-bg.png");
+    background-color: #F0C394;
+}
+.projects-para {
+  width: 75%;
+  margin: 1rem auto;
+}
+.projects-para p{
+  font-family: "Lexend Deca";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #291409;
+}

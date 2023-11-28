@@ -1,0 +1,25 @@
+.custom-btn {
+  /* max-width: 239px;
+  width: 100%; */
+  width: 239px;
+  color: #ffffff;
+  height: 72px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  font-family: "Philosopher";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  transition:all 0.5s ease-in;
+}
+.custom-btn i {
+  transform: rotate(45deg);
+  font-weight: 600;
+}
