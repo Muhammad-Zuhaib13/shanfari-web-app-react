@@ -38,6 +38,10 @@
   background-color: #291409;
   border-color: #291409 !important;
 }
+.css-k008qs {
+  display: flex;
+  justify-content: center;
+}
 /* .project-tab-option {
   font-family: "Philosopher" !important;
   font-size: 36px !important;
