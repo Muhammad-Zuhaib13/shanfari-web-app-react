@@ -10,7 +10,7 @@ const FooterAccordion = () => {
     <div className="footer-accordion-container">
       <Accordion className="custom-footer-accordion">
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon color="white"/>}
           aria-controls="panel1a-content"
           id="panel1a-header"
           className="custom-footer-accordion-summary"
@@ -44,7 +44,7 @@ const FooterAccordion = () => {
       </Accordion>
       <Accordion className="custom-footer-accordion">
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon color="white" />}
           aria-controls="panel2a-content"
           id="panel2a-header"
           className="custom-footer-accordion-summary"
